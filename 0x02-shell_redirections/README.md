@@ -8,3 +8,4 @@ Display the first 10 lines of /etc/passwd
 Write a script that displays the third line of the file iacta
 Write a script that counts the number of directories and sub-directories in the current directory.
 Create a script that takes a list of words as input and prints only words that appear exactly once.
+Create a script that takes a list of words as input and prints only words that appear exactly once.
