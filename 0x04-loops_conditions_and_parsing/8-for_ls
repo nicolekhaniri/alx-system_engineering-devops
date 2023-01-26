@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-i = $(ls)
+i=$(ls)
 for j in $i
 do
 	echo "j"
-	j++
+	((j++))
 done
