@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
-minutes = 0
-hours = 0
-while hours < 13
+#Display time
+
+minutes=1
+hours=0
+
+while ((hours < 13))
 do
 	echo "Hour: $hours"
+	while ((minutes < 60))
 	do
-	minutes = 1
-	while minutes < 60
-		echo "$minutes\n"
-		minutes++
+		echo "$minutes"
+		((minutes++))
 	done
-	hours++
+	minutes=1
+	((hours++))
 done
