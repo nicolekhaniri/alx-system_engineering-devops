@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+i = 0
+i++
+while i < 11
+do
+	echo "Best School\n"
+done

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+i = 0
+i++
+until i = 10
+do
+	echo "Best School\n"
+done

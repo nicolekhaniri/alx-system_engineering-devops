@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+number = 1
+do
+for i in number
+	if number % 3 = 0 and number % 5 = 0
+		echo "FizzBuzz"
+	elif number % 3 = 0
+		echo "Fizz"
+	elif number % 5 = 0
+		echo "Buzz"
+	else
+		echo "$number"
+	number++
+done

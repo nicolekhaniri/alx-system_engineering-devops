@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+i = $(ls)
+for j in $i
+do
+	echo "j"
+	j++
+done
