@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Get a list of all process IDs
+pids=$(pgrep -d ' ' -f bash)
+
+# Iterate through each process ID
+for pid in $pids; do
+    # Get the name of the process
+    name=$(cat /proc/$pid/comm)
+    # Print the PID and name
+    echo "PID: $pid, Name: $name"
+done
