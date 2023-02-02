@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Dislpays listening ports
+netstat --listening --program
